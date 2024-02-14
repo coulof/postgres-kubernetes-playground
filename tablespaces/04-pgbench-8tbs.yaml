@@ -7,10 +7,6 @@ spec:
 
   instances: 1
 
-  affinity:
-    nodeSelector:
-      workload: postgres
-
   # Request Guaranteed QoS
   resources:
     requests:

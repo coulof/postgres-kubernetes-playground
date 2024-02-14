@@ -7,15 +7,8 @@ spec:
 
   instances: 1
 
-  affinity:
-    nodeSelector:
-      workload: postgres
-
   # Request Guaranteed QoS
   resources:
-    requests:
-      memory: '64Gi'
-      cpu: 14
     limits:
       memory: '64Gi'
       cpu: 14
